@@ -8,7 +8,6 @@ import Header from './component/Header/Header.jsx';
 import Root from './component/Root/Root.jsx';
 
 import Home from './component/Home/Home.jsx';
-import Moblies from './component/Mobiles/Mobiles.jsx';
 import Mobiles from './component/Mobiles/Mobiles.jsx';
 import Laptop from './component/Laptop/Laptop.jsx';
 
@@ -27,7 +26,8 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode >
+    <App></App>
     <RouterProvider router={router} />
     {/* <App /> */}
   </StrictMode>,
