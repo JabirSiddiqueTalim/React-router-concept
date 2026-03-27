@@ -9,3 +9,7 @@ nav a
   padding: 3px;
 
 }
+nav a.active
+{
+  background: #443da5;
+}
